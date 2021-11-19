@@ -14,6 +14,12 @@
     src: local('Roboto'), url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
+
+
+
+
+
+
 html, body {
     padding: 0;
     margin: 0;
@@ -23,19 +29,33 @@ html, body {
 }
 
 .background {
-    background: url("https://wallpaperaccess.com/download/dark-landscape-143729");
+    background: url("../img/background.jpg");
     background-size: cover;
     padding-bottom: 200px
 }
+
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 0 0 20px black;
+    cursor: none;
+    margin-top: 22px
+  }
+  
+
+
 .btn:hover
 {
-background:#654321;
+background:#000000;
 opacity:0.3;
 }
 a:hover
 {
 opacity:0.5;
-color: #654321;
+color: #000000;
 }
 p {
     margin: 0;
@@ -87,7 +107,7 @@ a {
 }
 
 .v-title {
-    color: #282828;
+    color: #080808;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
