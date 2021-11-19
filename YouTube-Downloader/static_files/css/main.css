@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Robot';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto'), url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #caccf642;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background: url("https://wallpaperaccess.com/download/dark-landscape-143729");
+    background-size: cover;
+    padding-bottom: 200px
+}
+.btn:hover
+{
+background:#654321;
+opacity:0.3;
+}
+a:hover
+{
+opacity:0.5;
+color: #654321;
+}
+p {
+    margin: 0;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.content > form > div > div > input {
+    padding: 15px;
+    width: 50%;
+    border: 1px solid black;
+    color: #282828;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.content > form > input[type="submit"] {
+    background: #FF0000;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: 15px 20px;
+    border: 0;
+    margin-top: 2%;
+}
+
+a {
+    color: #ffff;
+}
+
+.dbox {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    margin-top: 3%;
+}
+
+.v-title {
+    color: #282828;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dbox > .img-thumb {
+    padding-right: 10px;
+}
+
+.dbox > .img-thumb > img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    /* border-radius: 10px; */
+}
+
+.dbox > .v-about {
+    padding-left: 10px;
+}
+
+.dbox > .v-about > .infos {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 25px;
+}
+
+.dbox > .v-about > .infos > li {
+    list-style: none;
+    padding-right: 50px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #282828;
+}
+
+.downloads {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Roboto';
+
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+td a{
+    color: #282828;
+}
+
+tr:nth-child(even) {
+    background-color: #282828;
+    color: #f2f2f2;
+}
+
+th {
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+#m-show {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .dbox, .downloads {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .dbox > .img-thumb > img {
+        width: 100% !important;
+    }
+
+    #desl {
+        display: none;
+    }
+
+    #m-show {
+        display: block;
+    }
+}
