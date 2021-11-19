@@ -23,4 +23,4 @@ Guys drop your project ideas here one by one we will start workig on it
 
 ## Join [me](http://gisakaze.ml/) to discuss somethings
 
-You can get in touch with me by using [an email](fredson.coder@gmail.com) or any other social platform provided on my [portfolio](http://gisakaze.ml/). I'm delighted to make you acquaintance.
+You can get in touch with me by using an email(fredson.coder@gmail.com) or any other social platform provided on my [portfolio](http://gisakaze.ml/). I'm delighted to make you   acquaintance.
