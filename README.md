@@ -19,7 +19,7 @@ Guys drop your project ideas here one by one we will start workig on it
 
 1. Student Result MIS using Django --- Work in Progress
 
-<del> 2. School MIS using DjangoFramework --- Started </del>
+2. <del>School MIS using DjangoFramework --- Started</del>
 
 3. Market Prediction App --- Work in Progress -- NEED HELP IN THIS
 
